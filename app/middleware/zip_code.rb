@@ -1,6 +1,6 @@
 module ClientSideValidations::Middleware
-  class ZipCode < Base
-  
+  class ZipCode < ClientSideValidations::Middleware::Base
+
     def response
       self.status = 200
   
