@@ -1,0 +1,7 @@
+== Instructions
+
+DEMO app for debugging https://github.com/bcardarella/client_side_validations/issues/180
+
+DB in sqlite included and already migrated. Once you start server navigate to localhost:3000
+there is a default page with form with one field. Change value to whatever and you'll get 500
+because of Load error in development environment. Now try the same in production - it works.
